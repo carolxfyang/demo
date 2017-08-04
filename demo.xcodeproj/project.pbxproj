@@ -9,14 +9,13 @@
 /* Begin PBXBuildFile section */
 		058EDCA302C6944F06F8293B /* libPods-demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0BC888B17147B478C8DB28 /* libPods-demo.a */; };
 		3D50E1903815671EF9AC3CD0 /* libPods-demoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3733AC13769072E3C3362568 /* libPods-demoUITests.a */; };
-		4DCC4D8F1F3054E3005B57FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCC4D8E1F3054E3005B57FF /* AppDelegate.m */; };
 		4DCC4D921F3054E3005B57FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCC4D911F3054E3005B57FF /* ViewController.m */; };
-		4DCC4D951F3054E3005B57FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DCC4D931F3054E3005B57FF /* Main.storyboard */; };
-		4DCC4D971F3054E3005B57FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCC4D961F3054E3005B57FF /* Assets.xcassets */; };
-		4DCC4D9A1F3054E3005B57FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DCC4D981F3054E3005B57FF /* LaunchScreen.storyboard */; };
 		4DCC4D9D1F3054E3005B57FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCC4D9C1F3054E3005B57FF /* main.m */; };
-		4DCC4DA71F3054E3005B57FF /* demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCC4DA61F3054E3005B57FF /* demoTests.m */; };
 		4DCC4DB21F3054E3005B57FF /* demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCC4DB11F3054E3005B57FF /* demoUITests.m */; };
+		4DE45CFE1F34491000CDC424 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE45CFD1F34491000CDC424 /* AppDelegate.m */; };
+		4DE45D001F34491D00CDC424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE45CFF1F34491D00CDC424 /* Assets.xcassets */; };
+		4DE45D0E1F34633800CDC424 /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE45D0D1F34633800CDC424 /* HomeView.m */; };
+		4DE45D0F1F34633800CDC424 /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE45D0D1F34633800CDC424 /* HomeView.m */; };
 		668D0C470EFBA2E201C3F225 /* libPods-demoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBB6972A5CDA310704E4BDE /* libPods-demoTests.a */; };
 /* End PBXBuildFile section */
 
@@ -42,21 +41,19 @@
 		0999E201CC94190043E38801 /* Pods-demoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-demoUITests/Pods-demoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3733AC13769072E3C3362568 /* libPods-demoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-demoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DCC4D8A1F3054E3005B57FF /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DCC4D8D1F3054E3005B57FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4DCC4D8E1F3054E3005B57FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4DCC4D901F3054E3005B57FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4DCC4D911F3054E3005B57FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4DCC4D941F3054E3005B57FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4DCC4D961F3054E3005B57FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4DCC4D991F3054E3005B57FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DCC4D9B1F3054E3005B57FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DCC4D9C1F3054E3005B57FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4DCC4DA21F3054E3005B57FF /* demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DCC4DA61F3054E3005B57FF /* demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demoTests.m; sourceTree = "<group>"; };
-		4DCC4DA81F3054E3005B57FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DCC4DAD1F3054E3005B57FF /* demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DCC4DB11F3054E3005B57FF /* demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demoUITests.m; sourceTree = "<group>"; };
 		4DCC4DB31F3054E3005B57FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DE45CFC1F3448F900CDC424 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../../.Trash/AppDelegate.h; sourceTree = "<group>"; };
+		4DE45CFD1F34491000CDC424 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../../.Trash/AppDelegate.m; sourceTree = "<group>"; };
+		4DE45CFF1F34491D00CDC424 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		4DE45D031F34493300CDC424 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../../.Trash/ViewController.h; sourceTree = "<group>"; };
+		4DE45D0C1F34633800CDC424 /* HomeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeView.h; sourceTree = "<group>"; };
+		4DE45D0D1F34633800CDC424 /* HomeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeView.m; sourceTree = "<group>"; };
 		8EBB6972A5CDA310704E4BDE /* libPods-demoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-demoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0BC888B17147B478C8DB28 /* libPods-demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB8257638A31D3B3AC83FBD /* Pods-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-demoTests/Pods-demoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -97,7 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				4DCC4D8C1F3054E3005B57FF /* demo */,
-				4DCC4DA51F3054E3005B57FF /* demoTests */,
 				4DCC4DB01F3054E3005B57FF /* demoUITests */,
 				4DCC4D8B1F3054E3005B57FF /* Products */,
 				D886E72006CBC4898E15DF47 /* Pods */,
@@ -118,26 +114,17 @@
 		4DCC4D8C1F3054E3005B57FF /* demo */ = {
 			isa = PBXGroup;
 			children = (
-				4DCC4D8D1F3054E3005B57FF /* AppDelegate.h */,
-				4DCC4D8E1F3054E3005B57FF /* AppDelegate.m */,
-				4DCC4D901F3054E3005B57FF /* ViewController.h */,
+				4DE45CFC1F3448F900CDC424 /* AppDelegate.h */,
+				4DE45CFD1F34491000CDC424 /* AppDelegate.m */,
+				4DE45D031F34493300CDC424 /* ViewController.h */,
 				4DCC4D911F3054E3005B57FF /* ViewController.m */,
-				4DCC4D931F3054E3005B57FF /* Main.storyboard */,
-				4DCC4D961F3054E3005B57FF /* Assets.xcassets */,
-				4DCC4D981F3054E3005B57FF /* LaunchScreen.storyboard */,
+				4DE45CFF1F34491D00CDC424 /* Assets.xcassets */,
 				4DCC4D9B1F3054E3005B57FF /* Info.plist */,
 				4DCC4D9C1F3054E3005B57FF /* main.m */,
+				4DE45D0C1F34633800CDC424 /* HomeView.h */,
+				4DE45D0D1F34633800CDC424 /* HomeView.m */,
 			);
 			path = demo;
-			sourceTree = "<group>";
-		};
-		4DCC4DA51F3054E3005B57FF /* demoTests */ = {
-			isa = PBXGroup;
-			children = (
-				4DCC4DA61F3054E3005B57FF /* demoTests.m */,
-				4DCC4DA81F3054E3005B57FF /* Info.plist */,
-			);
-			path = demoTests;
 			sourceTree = "<group>";
 		};
 		4DCC4DB01F3054E3005B57FF /* demoUITests */ = {
@@ -284,9 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DCC4D9A1F3054E3005B57FF /* LaunchScreen.storyboard in Resources */,
-				4DCC4D971F3054E3005B57FF /* Assets.xcassets in Resources */,
-				4DCC4D951F3054E3005B57FF /* Main.storyboard in Resources */,
+				4DE45D001F34491D00CDC424 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,9 +443,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DE45CFE1F34491000CDC424 /* AppDelegate.m in Sources */,
+				4DE45D0E1F34633800CDC424 /* HomeView.m in Sources */,
 				4DCC4D921F3054E3005B57FF /* ViewController.m in Sources */,
 				4DCC4D9D1F3054E3005B57FF /* main.m in Sources */,
-				4DCC4D8F1F3054E3005B57FF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,7 +454,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DCC4DA71F3054E3005B57FF /* demoTests.m in Sources */,
+				4DE45D0F1F34633800CDC424 /* HomeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,25 +480,6 @@
 			targetProxy = 4DCC4DAE1F3054E3005B57FF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4DCC4D931F3054E3005B57FF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4DCC4D941F3054E3005B57FF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4DCC4D981F3054E3005B57FF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4DCC4D991F3054E3005B57FF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4DCC4DB41F3054E3005B57FF /* Debug */ = {
