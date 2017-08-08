@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +18,36 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    
+    //初始化tabbar控制器
+    UITabBarController *tb = [[UITabBarController alloc]init];
+    
+    self.window.rootViewController = tb;
+    
+    
+    UIViewController *c1 = [[UIViewController alloc]init];
+    c1.view.backgroundColor = [UIColor grayColor];
+    c1.view.backgroundColor = [UIColor grayColor];
+    c1.tabBarItem.title =@"balance";
+    
+    
+    UIViewController *c2 = [[UITabBarController alloc]init];
+    c2.view.backgroundColor = [UIColor yellowColor];
+    c2.tabBarItem.title =@"To Do";
+    
+    tb.viewControllers=@[c1,c2];
+    
+    //UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:tb];
+    
+    
+    [self.window makeKeyAndVisible];
     return YES;
+    
 }
 
 
@@ -49,3 +79,4 @@
 
 
 @end
+
