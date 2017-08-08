@@ -10,6 +10,7 @@
 		058EDCA302C6944F06F8293B /* libPods-demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0BC888B17147B478C8DB28 /* libPods-demo.a */; };
 		4DCC4D921F3054E3005B57FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCC4D911F3054E3005B57FF /* ViewController.m */; };
 		4DCC4D9D1F3054E3005B57FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCC4D9C1F3054E3005B57FF /* main.m */; };
+		4DD68A291F39AE8400D34BFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD68A281F39A98900D34BFB /* AppDelegate.m */; };
 		4DE45D0E1F34633800CDC424 /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE45D0D1F34633800CDC424 /* HomeView.m */; };
 /* End PBXBuildFile section */
 
@@ -237,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DD68A291F39AE8400D34BFB /* AppDelegate.m in Sources */,
 				4DE45D0E1F34633800CDC424 /* HomeView.m in Sources */,
 				4DCC4D921F3054E3005B57FF /* ViewController.m in Sources */,
 				4DCC4D9D1F3054E3005B57FF /* main.m in Sources */,
