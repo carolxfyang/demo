@@ -10,7 +10,11 @@
 
 @interface ViewController ()
 
-@property (strong, nonatomic) UIButton *btn;
+@property (strong, nonatomic) UIButton *left;
+
+@property (strong, nonatomic) UIButton *right;
+
+@property (strong, nonatomic) UITabBar *tab;
 
 @end
 
@@ -21,8 +25,9 @@
     
     
     //初始化按钮，设置按钮类型
-    self.btn = [UIButton buttonWithType:UIButtonTypeSystem];
-    /*
+    self.left = [UIButton buttonWithType:UIButtonTypeSystem];
+    self.right = [UIButton buttonWithType:UIButtonTypeSystem];
+     /*
      Type:
      UIButtonTypeCustom = 0, // 自定义类型
      UIButtonTypeSystem NS_ENUM_AVAILABLE_IOS(7_0),  // 系统类型
@@ -34,10 +39,14 @@
      */
     
     //设置按钮位置和尺寸
-    self.btn.frame = CGRectMake(50, 50, 300, 50);
+    self.left.frame = CGRectMake(0, 690, 210, 50);
+    
+    self.right.frame = CGRectMake(400, 800, 210, 50);
     
     //设置按钮文字标题
-    [self.btn setTitle:@"我是一个按钮" forState:UIControlStateNormal];
+    [self.left setTitle:@"记账" forState:UIControlStateNormal];
+    
+    [self.right setTitle:@"To Do" forState:UIControlStateNormal];
     /*
      State:前三个较为常用
      UIControlStateNormal //正常状态下
@@ -49,33 +58,49 @@
      */
     
     //设置按钮文字颜色
-    [self.btn setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal];
+    [self.left setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    
+    [self.right setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     
     //设置背景图片（需要注意按钮类型最好为自定义，系统类型的会使图片变暗）
     //    [self.btn setImage:[UIImage imageNamed:@"tupian"] forState:UIControlStateNormal];
     
     //设置按钮文字大小
-    self.btn.titleLabel.font = [UIFont systemFontOfSize:20];
+    self.left.titleLabel.font = [UIFont systemFontOfSize:20];
+    
+    self.right.titleLabel.font = [UIFont systemFontOfSize:20];
     
     //设按钮背景颜色
-    self.btn.backgroundColor = [UIColor cyanColor];
+    self.left.backgroundColor = [UIColor grayColor];
+    
+    self.right.backgroundColor = [UIColor grayColor];
     
     //设置按钮文字阴影颜色
-    [self.btn setTitleShadowColor:[UIColor yellowColor] forState:UIControlStateNormal];
+    [self.left setTitleShadowColor:[UIColor yellowColor] forState:UIControlStateNormal];
+    
+    [self.right setTitleShadowColor:[UIColor yellowColor] forState:UIControlStateNormal];
     
     //默认情况下，在按钮被禁用时，图像会被画的颜色深一些。要禁用此功能，可以将这个属性设置为NO
-    self.btn.adjustsImageWhenHighlighted = NO;
+    self.left.adjustsImageWhenHighlighted = NO;
+    
+    self.right.adjustsImageWhenHighlighted = NO;
     
     //默认情况下，按钮在被禁用时，图像会被画的颜色淡一些。要禁用此功能，可以将这个属性设置为NO
-    self.btn.adjustsImageWhenDisabled = NO;
+    self.left.adjustsImageWhenDisabled = NO;
+    
+    self.right.adjustsImageWhenDisabled = NO;
     
     //下面的这个属性设置为yes的状态下，按钮按下会发光，这可以用于信息按钮或者有些重要的按钮
-    self.btn.showsTouchWhenHighlighted = YES;
+    self.left.showsTouchWhenHighlighted = YES;
     
+    self.right.showsTouchWhenHighlighted = YES;
     
     //将控件添加到当前视图上
-    [self.view addSubview:self.btn];
+    [self.view addSubview:self.left];
+    
+    [self.view addSubview:self.right];
     // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 
